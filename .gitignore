@@ -35,6 +35,8 @@ Thumbs.db
 *.tgz
 .cache/
 tmp/
+graphify-out/
+erd-out/
 
 # debug
 *.log
