@@ -1,6 +1,6 @@
 import { Entity, PrimaryKey, Property, Unique } from '@mikro-orm/decorators/legacy';
 
-// FlujoNet test: third auto-update verification comment
+// FlujoNet test: fourth auto-update verification comment
 @Entity({ tableName: 'example_items' })
 export class ExampleItem {
   @PrimaryKey({ type: 'uuid', defaultRaw: 'gen_random_uuid()' })
